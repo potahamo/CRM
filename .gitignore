@@ -1,5 +1,78 @@
-# Object file
-*.o
+# Compiled class file
+*.class
 
-# Ada Library Information
-*.ali
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.db
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+######################
+# Windows
+######################
+ 
+# Windows image file caches
+Thumbs.db 
+ 
+# Folder config file
+Desktop.ini
+ 
+######################
+# OSX
+######################
+.DS_Store
+.svn
+
+ 
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# NetBeans
+######################
+/nbproject/private/
+/build/
+/dist/
+CRM/nbproject/private
+CRM/nbproject/ant-deploy.xml
+CRM/nbproject/build-impl.xml
+CRM/nbproject/genfiles.properties
+CRM/nbproject/rest-build.xml
+CRM/build/
+CRM/nbbuild/
+CRM/dist/
+CRM/nbdist/
+CRM/nbactions.xml
+CRM/nb-configuration.xml
+CRM/build.xml
+CRM/CRM-ejb/build
+CRM/CRM-ejb/nbproject
+CRM/CRM-ejb/dist
+CRM/CRM-war/build
+CRM/CRM-war/nbproject
+CRM/CRM-war/dist
+######################
+# Liberty tools
+######################
+
+.factorypath
+
+#diff version of mysql for server
+CRM/setup/glassfish-resources.xml
